@@ -39,6 +39,6 @@ Ada dua file CSV yang akan Anda gunakan:
 
    - Berisi data komentar.
 
-   - Kolom: `idKomentar`, `idBerita`, `Komentar`.
+   - Kolom: `idKomentar`, `idBerita`, `Komentar`, `Rating`.
 
    - `idBerita` di sini berfungsi sebagai Foreign Key, yang menghubungkan setiap komentar ke berita yang relevan.

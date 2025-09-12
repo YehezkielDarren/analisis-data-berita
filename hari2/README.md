@@ -46,3 +46,11 @@ Ada dua file CSV yang akan Anda gunakan:
    - Kolom: `idKomentar`, `idBerita`, `Komentar`, `Rating`.
 
    - `idBerita` di sini berfungsi sebagai Foreign Key, yang menghubungkan setiap komentar ke berita yang relevan.
+
+## Catatan
+
+1. File stopwords.txt sudah disediakan, silahkan gunakan saja
+
+2. **Kerjakan mandiri dan jangan bertanya kepada teman lainnya**
+
+3. Plagiasi akan di kurangi nilainya
