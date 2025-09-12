@@ -1,31 +1,30 @@
-# Analisa Tren Sebuah Berita dalam Satu Hari
+# Analisa Sentimen Netizen Pada Sebuah Berita dan Popularitas Berita dalam Satu Hari
 
 ## Latar Belakang
 
 Sebuah lembaga riset politik ingin mendapatkan gambaran yang lebih mendalam mengenai narasi berita dan respons publik terhadapnya. Mereka memiliki dua set data:
 
 1. Data Berita: Berisi judul dan isi artikel berita.
-2. Data Komentar: Berisi komentar-komentar yang diberikan oleh pembaca terhadap artikel berita.
 
-**Tugas Anda** adalah membuat program yang dapat memproses kedua file tersebut dan mencari tren Berita apa saja yang sedang terjadi dalam satu hari ini.
+2. Data Komentar: Berisi komentar-komentar dan rating bintang yang diberikan oleh pembaca terhadap artikel berita.
+
+**Tugas Anda** adalah membuat program yang dapat memproses kedua file tersebut dan mengurutkan headline Berita dengan rating bintang tertinggi dan terpopuler berdasarkan kunjungan netizen dalam satu hari ini.
 
 ## Deskripsi Soal
 
-Fokus dari bagian ini adalah mengidentifikasi tren topik melalui kata-kata yang paling sering muncul di berbagai artikel.
+Fokus dari bagian ini adalah mengidentifikasi topik melalui kata-kata yang paling sering muncul di berbagai artikel.
 
-- Pemuatan Data Berita: Baca seluruh data dari news_data.csv. Simpan data ini ke dalam dictionary di mana idBerita menjadi kunci dan data berita (Headline, Content) menjadi nilai.
+- Pemuatan Data Berita: Baca seluruh data dari `news_data.csv` dan `comment_news.csv`. Simpan data-data tersebut ke dalam dictionary terpisah.
 
-- Pra-pemrosesan Teks: Lakukan langkah-langkah pembersihan kolom Content:
+- Pra-pemrosesan Berita: Lakukan langkah-langkah berikut:
 
-  1. Konversi ke huruf kecil.
+  1. Cocokan data dari `comment_news.csv` dengan `news_data.csv` menggunakan `idBerita`.
 
-  2. Penghapusan tanda baca dan angka.
+  2. Hitung jumlah komentar untuk setiap berita.
 
-  3. Penghapusan stop words (gunakan file stopwords.txt).
+  3. Hitung rata-rata rating bintang setiap berita `(rating maksimal 5)`.
 
-- Analisis Frekuensi: Gunakan dictionary lain untuk menghitung frekuensi kemunculan setiap kata dari semua konten berita.
-
-- Penyajian Hasil: Tampilkan 10 kata kunci teratas yang paling sering muncul, menunjukkan topik-topik yang paling banyak dibicarakan oleh media.
+- Penyajian Hasil: Tampilkan semua data berita dalam satu tabel (berisikan kolom judul berita, rata-rata rating bintang, dan jumlah komentar) dan urutkan berita dengan rating bintang yang tertinggi.
 
 ## Struktur Data File
 
@@ -49,8 +48,14 @@ Ada dua file CSV yang akan Anda gunakan:
 
 ## Catatan
 
-1. File stopwords.txt sudah disediakan, silahkan gunakan saja
+1. File `stopwords.txt`, `comment_news.csv`, dan `news_data.csv` sudah disediakan, tidak usah membuat lagi.
 
 2. **Kerjakan mandiri dan jangan bertanya kepada teman lainnya**
 
 3. Plagiasi akan di kurangi nilainya
+
+4. Output harus sesuai dengan ketentuan soal
+
+5. Gunakan tipe data `dictionary` untuk menyimpan data secara temporary
+
+6. Usahakan menggunakan fungsi untuk penyelesaian soal
