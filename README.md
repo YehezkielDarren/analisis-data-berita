@@ -5,6 +5,7 @@
 Sebuah lembaga riset politik ingin mendapatkan gambaran yang lebih mendalam mengenai narasi berita dan respons publik terhadapnya. Mereka memiliki dua set data:
 
 1. Data Berita: Berisi judul dan isi artikel berita.
+
 2. Data Komentar: Berisi komentar-komentar yang diberikan oleh pembaca terhadap artikel berita.
 
 **Tugas Anda** adalah membuat program yang dapat melakukan proses pembersihan data di tiap kolom pada kedua file csv.
