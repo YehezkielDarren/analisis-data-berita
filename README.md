@@ -1,4 +1,4 @@
-# Analisa Tren Sebuah Berita dalam Satu Hari
+# Periapan : Pembersihan Data pada Sebuah Teks Berita (Latihan Soal untuk Video)
 
 ## Latar Belakang
 
@@ -8,7 +8,7 @@ Sebuah lembaga riset politik ingin mendapatkan gambaran yang lebih mendalam meng
 
 2. Data Komentar: Berisi komentar-komentar yang diberikan oleh pembaca terhadap artikel berita.
 
-**Tugas Anda** adalah membuat program yang dapat melakukan proses pembersihan data di tiap kolom pada kedua file csv.
+**Tugas Anda** adalah membuat program yang dapat melakukan proses pembersihan data di kolom `komentar` pada `comment_news.csv` dan kolom `headline` di `news_data.csv`.
 
 ## Deskripsi Soal
 
@@ -21,8 +21,6 @@ Fokus dari bagian ini adalah melakukan pra-pemrosesan teks untuk mendapatkan tek
   1. Konversi ke huruf kecil.
 
   2. Penghapusan tanda baca dan angka.
-
-  3. Penghapusan stop words (gunakan file stopwords.txt).
 
 ## Struktur Data File
 
