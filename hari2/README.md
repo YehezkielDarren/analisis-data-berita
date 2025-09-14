@@ -61,3 +61,9 @@ Ada dua file CSV yang akan Anda gunakan:
 6. Usahakan menggunakan fungsi untuk penyelesaian soal
 
 ## Penilaian
+
+1. Kemampuan Membuat Fungsi (35%)
+
+2. Output sesuai dengan ketentuan soal (35%)
+
+3. Orisinalitas (30%)
