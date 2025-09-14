@@ -20,7 +20,7 @@ Fokus dari bagian ini adalah mengidentifikasi topik melalui kata-kata yang palin
 
   1. Cocokan data dari `comment_news.csv` dengan `news_data.csv` menggunakan `idBerita`.
 
-  2. Hitung jumlah komentar untuk setiap berita.
+  2. Hitung jumlah komentar untuk setiap berita (untuk menghitung berapa banyak kunjungan).
 
   3. Hitung rata-rata rating bintang setiap berita `(rating maksimal 5)`.
 
@@ -48,7 +48,7 @@ Ada dua file CSV yang akan Anda gunakan:
 
 ## Catatan
 
-1. File `stopwords.txt`, `comment_news.csv`, dan `news_data.csv` sudah disediakan, tidak usah membuat lagi.
+1. File `comment_news.csv`, dan `news_data.csv` sudah disediakan, tidak usah membuat lagi.
 
 2. **Kerjakan mandiri dan jangan bertanya kepada teman lainnya**
 
@@ -59,3 +59,5 @@ Ada dua file CSV yang akan Anda gunakan:
 5. Gunakan tipe data `dictionary` untuk menyimpan data secara temporary
 
 6. Usahakan menggunakan fungsi untuk penyelesaian soal
+
+## Penilaian
