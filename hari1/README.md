@@ -1,4 +1,4 @@
-# Analisa Tren Sebuah Berita dalam Satu Hari
+# Analisa Kata Sering Muncul di Sebuah Berita dalam Satu Hari
 
 ## Latar Belakang
 
@@ -8,11 +8,11 @@ Sebuah lembaga riset politik ingin mendapatkan gambaran yang lebih mendalam meng
 
 2. Data Komentar: Berisi komentar-komentar yang diberikan oleh pembaca terhadap artikel berita.
 
-**Tugas Anda** adalah membuat program yang dapat memproses kedua file tersebut dan mencari tren Berita apa saja yang sedang terjadi dalam satu hari ini.
+**Tugas Anda** adalah membuat program yang dapat memproses kedua file tersebut dan mencari kata yang sering muncul dalam Berita tersebut yang sedang terjadi dalam satu hari ini.
 
 ## Deskripsi Soal
 
-Fokus dari bagian ini adalah mengidentifikasi tren topik melalui kata-kata yang paling sering muncul di berbagai artikel.
+Fokus dari bagian ini adalah mencari kata yang paling sering muncul di berbagai artikel.
 
 - Pemuatan Data Berita: Baca seluruh data dari `news_data.csv`. Simpan data ini ke dalam dictionary di mana idBerita menjadi kunci dan data berita (Headline, Content) menjadi nilai.
 
@@ -22,11 +22,9 @@ Fokus dari bagian ini adalah mengidentifikasi tren topik melalui kata-kata yang 
 
   2. Penghapusan tanda baca dan angka.
 
-  3. Penghapusan stop words (gunakan file `stopwords.txt`).
-
 - Analisis Frekuensi: Gunakan dictionary lain untuk menghitung frekuensi kemunculan setiap kata dari semua konten berita.
 
-- Penyajian Hasil: Tampilkan 10 kata kunci teratas yang paling sering muncul, menunjukkan topik-topik yang paling banyak dibicarakan oleh media.
+- Penyajian Hasil: Tampilkan semua kata yang paling sering muncul dari semua berita di dataset `news_data.csv` beserta frekuensinya.
 
 ## Struktur Data File
 
@@ -50,11 +48,9 @@ Ada dua file CSV yang akan Anda gunakan:
 
 ## Output/Hasil
 
-
-
 ## Catatan
 
-1. File `stopwords.txt`, `comment_news.csv`, dan `news_data.csv` sudah disediakan, tidak usah membuat lagi
+1. File `comment_news.csv`, dan `news_data.csv` sudah disediakan, tidak usah membuat lagi
 
 2. **Kerjakan mandiri dan jangan bertanya kepada teman lainnya**
 
@@ -65,3 +61,7 @@ Ada dua file CSV yang akan Anda gunakan:
 5. Gunakan tipe data `dictionary` untuk menyimpan data secara temporary
 
 6. Usahakan menggunakan fungsi untuk penyelesaian soal
+
+
+## Penilaian
+
