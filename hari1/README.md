@@ -48,6 +48,8 @@ Ada dua file CSV yang akan Anda gunakan:
 
 ## Output/Hasil
 
+
+
 ## Catatan
 
 1. File `comment_news.csv`, dan `news_data.csv` sudah disediakan, tidak usah membuat lagi
@@ -67,7 +69,9 @@ Ada dua file CSV yang akan Anda gunakan:
 
 1. Kemampuan Membuat Fungsi (35%)
 
-2. Output sesuai dengan ketentuan soal (35%)
+2. Output sesuai dengan ketentuan soal (30%)
 
-3. Orisinalitas (30%)
+3. Menggunakan Streamlit (15%)
+
+4. Kesesuaian UI dengan contoh di soal (20%)
 
