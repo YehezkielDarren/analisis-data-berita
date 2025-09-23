@@ -60,7 +60,6 @@ def main():
     news_data = load_news('news_data.csv')
     comment_data = load_comments('comment_news.csv')
 
- 
     hasil = process_data(news_data, comment_data)
 
     

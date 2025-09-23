@@ -54,11 +54,17 @@ Ada dua file CSV yang akan Anda gunakan:
 
 3. Plagiasi akan di kurangi nilainya
 
-4. Output harus sesuai dengan ketentuan soal
+4. Output harus sesuai dengan ketentuan soal (Berbasis UI Streamlit)
 
 5. Gunakan tipe data `dictionary` untuk menyimpan data secara temporary
 
 6. Usahakan menggunakan fungsi untuk penyelesaian soal
+
+7. Tidak perlu menggunakan file input di streamlit
+
+## Output Hasil
+
+![Output UI](output_ui.png)
 
 ## Penilaian
 
