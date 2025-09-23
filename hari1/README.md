@@ -48,8 +48,6 @@ Ada dua file CSV yang akan Anda gunakan:
 
 ## Output/Hasil
 
-
-
 ## Catatan
 
 1. File `comment_news.csv`, dan `news_data.csv` sudah disediakan, tidak usah membuat lagi
@@ -64,7 +62,6 @@ Ada dua file CSV yang akan Anda gunakan:
 
 6. Usahakan menggunakan fungsi untuk penyelesaian soal
 
-
 ## Penilaian
 
 1. Kemampuan Membuat Fungsi (35%)
@@ -74,4 +71,3 @@ Ada dua file CSV yang akan Anda gunakan:
 3. Menggunakan Streamlit (15%)
 
 4. Kesesuaian UI dengan contoh di soal (20%)
-
