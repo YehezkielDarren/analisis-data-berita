@@ -8,7 +8,7 @@ Sebuah lembaga riset politik ingin mendapatkan gambaran yang lebih mendalam meng
 
 2. Data Komentar: Berisi komentar-komentar yang diberikan oleh pembaca terhadap artikel berita.
 
-**Tugas Anda** adalah membuat program yang dapat memproses kedua file tersebut dan mencari kata yang sering muncul dalam Berita tersebut yang sedang terjadi dalam satu hari ini.
+**Tugas Anda** adalah membuat program yang dapat memproses kedua file tersebut dan **mencari 10 kata yang sering muncul dalam setiap berita** yang sedang terjadi dalam satu hari ini.
 
 ## Deskripsi Soal
 
@@ -47,6 +47,8 @@ Ada dua file CSV yang akan Anda gunakan:
    - `idBerita` di sini berfungsi sebagai Foreign Key, yang menghubungkan setiap komentar ke berita yang relevan.
 
 ## Output/Hasil
+
+![Output_ui](output_ui.png)
 
 ## Catatan
 
