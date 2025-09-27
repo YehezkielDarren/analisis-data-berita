@@ -24,7 +24,7 @@ Fokus dari bagian ini adalah mencari kata yang paling sering muncul di berbagai 
 
 - Analisis Frekuensi: Gunakan dictionary lain untuk menghitung frekuensi kemunculan setiap kata dari semua konten berita.
 
-- Penyajian Hasil: Tampilkan semua kata yang paling sering muncul dari semua berita di dataset `news_data.csv` beserta frekuensinya.
+- Penyajian Hasil: Tampilkan 10 kata yang paling sering muncul dari semua berita di dataset `news_data.csv` beserta frekuensinya.
 
 ## Struktur Data File
 
@@ -62,7 +62,7 @@ Ada dua file CSV yang akan Anda gunakan:
 
 5. Gunakan tipe data `dictionary` untuk menyimpan data secara temporary
 
-6. Usahakan menggunakan fungsi untuk penyelesaian soal
+6. **Wajib** menggunakan fungsi untuk penyelesaian soal
 
 ## Penilaian
 

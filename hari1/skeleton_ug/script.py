@@ -13,23 +13,12 @@ def read_news(filename):
     # kembalikan dalam bentuk list of dictionary
     pass
 
-def read_comment(filename):
-    # isi dengan membaca file csv
-    # Hint : gunakan csv.DictReader
-    # gunakan fungsi clean_text untuk membersihkan text pada kolom 'Komentar'
-    # kembalikan dalam bentuk list of dictionary
-    pass
-
 def find_top_words(data, n=10): # parameter jangan diubah
     # isi dengan memproses data
     # hitung kemunculan tiap kata pada key 'teks'
     # kembalikan n kata yang paling sering muncul dalam bentuk dictionary
-    pass
-
-def extract_text(comments,news):
-    # isi dengan mengekstrak text dari komentar dan berita
-    # ambil data dari key 'komentar' pada comments
-    # ambil data dari key 'content' pada news
-    # gabungkan kedua list tersebut
-    # kembalikan dalam bentuk list of dictionary dengan key 'teks'
+    
+    # Hint : boleh gunakan ini untuk sorting
+    # sorted_words = sorted(word_count.items(), key=lambda item: item[1], reverse=True)
+    # top_n_ascending = sorted_words[:n]
     pass
